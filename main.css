@@ -1,0 +1,48 @@
+
+a {
+	text-decoration-line: none;
+	color: black;
+}
+a:hover {
+	text-decoration-line: none;
+	color: white;
+}
+.class_red_unborder {
+	height: 50px;}
+.class_red {
+	border: 2px solid red;
+	height: 50px;
+}
+.class_red_unborder:hover {
+	background: orangered;
+	color: white;
+}
+.class_red:hover {
+	background: orangered;
+	color: white;
+}
+.class_blue_1 {
+	border: 2px solid blue;
+	height: 50px;
+}
+
+.class_blue_1:hover {
+	background: #09c;
+	color: white;
+}
+.class_blue_2 {
+	border: 2px solid blue;
+	height: 50px;
+}
+.class_blue_2:hover {
+	background: #09c;
+	color: white;
+}
+.class_green{
+	border: 2px solid green; 
+	height: 50px;	
+}
+#content {
+	font-size: 100px;
+	font-weight: bolder;
+}

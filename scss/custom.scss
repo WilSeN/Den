@@ -1,0 +1,35 @@
+
+@import "../bootstrap/scss/_functions.scss";
+@import "../bootstrap/scss/_variables.scss";
+@import "../bootstrap/scss/_mixins.scss";
+
+
+@import "../bootstrap/scss/_reboot.scss";
+@import "../bootstrap/scss/_type.scss";
+@import "../bootstrap/scss/_images.scss";
+@import "../bootstrap/scss/_code.scss";
+@import "../bootstrap/scss/_grid.scss";
+
+$grid-breakpoints: (
+  xxs: 0,
+  xsm: 425px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
+);
+
+$container-max-widths: (
+  xxs: 375px,
+  xsm: 355px,
+  sm: 544px,
+  md: 768px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1390px,
+  xxxl: 1550px
+);
+
+@import "../bootstrap/scss/bootstrap.scss";
